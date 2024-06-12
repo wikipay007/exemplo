@@ -50,7 +50,7 @@ public class CalculoImc implements ActionListener{
 		JLabel labelCampoSalario = new JLabel("Valor do salario");
 		campoSalario = new JTextField();
 		
-		
+		JButton calcular2 = new JButton ("calcular2");
 		JButton calcular = new JButton("Calcular");
 		calcular.addActionListener(this);
 		labelResultado = new JLabel("Salario + comissao:");
